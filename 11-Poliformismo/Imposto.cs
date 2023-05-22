@@ -7,9 +7,9 @@ class Imposto
         Console.WriteLine(" Desconto padrão do Vale alimentação R$" + (salario * 0.1));
     }
 
-    public void ValeTransporte(double salario)
+    public virtual void ValeTransporte(double salario)
     {
-        Console.WriteLine(" Desconto padrão do Vale alimentação R$" + (salario * 0.06));
+        Console.WriteLine(" Desconto padrão do Vale Transporte R$" + (salario * 0.06));
     }
     
 }
